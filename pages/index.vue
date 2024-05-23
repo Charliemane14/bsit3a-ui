@@ -27,11 +27,11 @@
 
 
           <v-text-field v-model="email" :rules="emailRules" label="E-mail" required prepend-inner-icon="mdi-account"
-            outlined="15">
+            outlined>
           </v-text-field>
 
           <v-text-field v-model="password" :rules="passwordRules" label="Pasword" required type="password"
-            prepend-inner-icon="mdi-lock" outlined="15">
+            prepend-inner-icon="mdi-lock" outlined>
           </v-text-field>
 
           <v-btn :disabled="!valid" color="success" class="mr-4" @click="validate" block>
